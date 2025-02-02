@@ -85,8 +85,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ---
 ## **Contact**
 
-GitHub: fortunatobaldo
-Email: fortunatobaldo@proton.me
+- GitHub: fortunatobaldo
+- Email: fortunatobaldo@proton.me
 
 
 
