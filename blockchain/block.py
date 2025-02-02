@@ -5,10 +5,10 @@ class Block:
     def __init__(self, index, transactions, previous_hash, nonce=0):
         self.index = index
         self.timestamp = time.time()
-        self.transactions = transactions  # Lista de hashes de chunks
+        self.transactions = transactions  # Chunk list
         self.previous_hash = previous_hash
         self.nonce = nonce
-        self.useful_work_data = None  # Dados do trabalho útil (ex.: hash de um resultado)
+        self.useful_work_data = None  # PoWU data (Proof of Work Usefulness)
         self.hash = self.calculate_hash()
 
     def calculate_hash(self):

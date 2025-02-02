@@ -5,8 +5,8 @@ class Node:
     def __init__(self, host, port):
         self.host = host
         self.port = port
-        self.peers = []  # Lista de peers (endereços IP:Porta)
-        self.storage = {}  # Chunks armazenados (hash: dados)
+        self.peers = []  # Peers address (host, port)
+        self.storage = {}  # Storaged chunks (chunk_hash, chunk_data)    
 
     def start(self):
         server = threading.Thread(target=self.run_server)
@@ -21,9 +21,9 @@ class Node:
                 threading.Thread(target=self.handle_connection, args=(conn, addr)).start()
 
     def handle_connection(self, conn, addr):
-        # Lógica para receber chunks e gerenciar peers
+        # Todo: Connection handling logic
         pass
 
     def connect_to_peer(self, peer_host, peer_port):
-        # Lógica para conectar a outro peer
+        # ToDo: Connect to peer
         pass

@@ -3,7 +3,7 @@ import hashlib
 class PoUW:
     @staticmethod
     def generate_useful_work(data):
-        # Simulação: encontrar um hash que comece com "0000" (exemplo)
+        # Simple Proof of Useful Work Algorithm
         nonce = 0
         while True:
             hash_attempt = hashlib.sha256(f"{data}{nonce}".encode()).hexdigest()
