@@ -1,4 +1,3 @@
-import hashlib
 import time
 from proof_useful_work import PoUW  # Import the PoUW module
 
