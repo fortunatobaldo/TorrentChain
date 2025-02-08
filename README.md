@@ -67,3 +67,27 @@ Participants are rewarded for:
    ```bash
    git clone https://github.com/fortunatobaldo/torrentchain.git
    cd torrentchain
+   ```
+2. Install the dependencies:
+1. Clone the repository:
+   ```bash
+   pip install -r requirements.txt
+   ```
+---
+## **About the creator**
+
+**Fortunato Baldo** is a decentralized networks and cryptography enthusiast with years of experience in software development and blockchain research. Inspired by the idea of digital freedom and fairness, he created TorrentChain to democratize access to blockchain technology and reduce energy waste.
+
+---
+## **License**
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code.
+
+---
+## **Contact**
+
+- GitHub: fortunatobaldo
+- Email: fortunatobaldo@proton.me
+
+
+
+ 
